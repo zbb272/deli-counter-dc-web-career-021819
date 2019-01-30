@@ -7,6 +7,7 @@ def line(line_array)
       message += " #{index + 1}. #{name}"
     end 
     puts message
+  end
 end
 
 def take_a_number(line_array, name)
