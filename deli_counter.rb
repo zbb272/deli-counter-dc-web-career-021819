@@ -5,6 +5,8 @@ def line(line_array)
     message = "The line is currently:"
     line_array.each_with_index do | name, index |
       message += " #{index + 1}. #{name}"
+    end 
+    message
 end
 
 describe "#line" do
