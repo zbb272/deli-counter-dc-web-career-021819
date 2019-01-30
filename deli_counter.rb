@@ -6,7 +6,7 @@ def line(line_array)
     line_array.each_with_index do | name, index |
       message += " #{index + 1}. #{name}"
     end 
-    message
+    puts message
 end
 
 describe "#line" do
